@@ -1,3 +1,65 @@
+# Python Workshop - Gomendra Multiple Campus
+
+
+## Assignment no 2
+
+
+#### 1. Journal Entry: 
+Write a Python program that allows users to create a daily journal. Each entry should be saved in a text file with the date as the filename. Users should also be able to read and display previous journal entries.
+
+1. **Create a Journal Entry**:
+
+    - The program will prompt the user to write a journal entry.
+    - The entry will be saved in a text file named with the current date (e.g., `2024-08-11.txt`).
+
+2. **Read Previous Entries**:
+
+    - The program will list all available journal entries (based on the filenames).
+    - The user can select a date, and the program will display the contents of the corresponding journal entry.
+
+#### Output Summary:
+
+
+- When a user writes a new journal entry, a text file named with the current date is created, containing the entry.
+- If the user chooses to read a previous entry, the program will display the contents of the selected date’s journal file.
+
+
+
+#### 2. Weather Logger
+Task: Create a Python program that records daily weather observations. Users should be able to enter the temperature, humidity, and general weather conditions (e.g., sunny, rainy). Each observation should be saved in a text file with the date as the filename. The program should allow users to view past weather data and display trends over time (e.g., average temperature for the week).
+
+
+
+#### Example Output:
+
+1. **Recording Data:**
+   - **User inputs:**
+     - Date: `2024-08-11`
+     - Temperature: `30°C`
+     - Humidity: `60%`
+     - Conditions: `Sunny`
+   - The data is saved in a file named `2024-08-11.txt` with the following content:
+   ```yaml
+   Date: 2024-08-11
+   Temperature: 30°C
+   Humidity: 60%
+   Conditions: Sunny
+   
+   
+2. Viewing Past Data:
+- When the user requests to view weather data for a specific date  `(e.g., 2024-08-11)`, the program reads from the corresponding file and displays the recorded data.
+
+3. Displaying Trends:
+- The program might calculate and display trends, like the average temperature over the last week, by reading data from multiple files (e.g., `2024-08-10.txt, 2024-08-09.txt`) and summarizing it for the user.
+
+
+
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 # Steps of submitting your assignments
 This repo represents the assignment done by Gomendra Multiple College BCA Students.
 
