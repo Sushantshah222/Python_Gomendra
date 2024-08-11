@@ -16,7 +16,7 @@ CMD_MEANING = (
     "View the trends and patterns in specific weather condition",
     "Displaying of all weather record in a week",
     "clearing screen",
-    "Exiting without saving",
+    "Exiting",
 )
 
 class LoggerError(RuntimeError):

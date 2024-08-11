@@ -60,3 +60,14 @@
 # current_file_path = os.path.dirname(__file__)
 # print("Full pathname of the current file:", current_file_path)
 # os.mkdir(f"{current_file_path}/temp")
+
+
+# print(len("hello"))
+
+# import os
+# python
+# storage_dir = f"{os.path.dirname(__file__)}/journals" # passing '' in abspath('') infers that this is the current working directory
+
+# jupyter
+# storage_dir = f"{os.path.abspath('')}/journals"
+# print(os.listdir(storage_dir))
