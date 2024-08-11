@@ -1,0 +1,3 @@
+Temperature: 30°C
+Humidity: 40%
+Conditions: rainny
